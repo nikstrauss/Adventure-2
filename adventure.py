@@ -15,7 +15,7 @@ if race == "H":
 	lk = 5 #Luck
 	print ("Hail, Human", name)
 elif race == "E":
-	hp = 3
+	hp = 	ap = 0
 	ap = 0
 	st = 4
 	sp = 6
@@ -32,3 +32,9 @@ elif race == "O":
 	mp = 2
 	lk = 2
 	print ("Hail, Orc", name)
+cc = input("What is thy class [W]arrior, [M]age, or [R]ouge? ")
+if cc == "W":
+	hp = hp+2
+	st = st+2
+	sp = sp+1
+
