@@ -60,5 +60,5 @@ elif start == "yes":
 	elif cc == "R":
 		cc = "Rouge"
 	print ("You are",name,"The",race, cc)
+	print ("Your stats are as follows \n Your hitpoint total is", hp,"\n Your strenght total is", st, "\n Your speed total is", sp, "\n Your magic total is", mp, "\n Your luck total is", lk )
 else: print ("I asked a simple question, which you did not answer. Be gone with you!")
-
